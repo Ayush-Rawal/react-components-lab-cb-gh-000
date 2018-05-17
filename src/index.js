@@ -35,7 +35,16 @@ export class InFrontOfYou extends React.Component {
 }
 
 export class ButcherShop extends React.Component {
-  
+  render () {
+    return (
+      <div class="butcher-shop">
+  <p>Hello! We have the following products for sale today:</p>
+  <ul>
+    {BUTCHER_PRODUCTS.map((item) => '<li>'+item+'</li>')}
+  </ul>
+</div>
+    )
+  }
 }
 
 
