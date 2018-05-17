@@ -27,7 +27,7 @@ export class InFrontOfYou extends React.Component {
   render() {
     return (
       <div>
-        <p>You shouldn"'"t look too far.</p>
+        <p>You shouldn&quot;t look too far.</p>
         <p>Sometimes, the solution is right in front of you.</p>
       </div>
     )
@@ -37,7 +37,7 @@ export class InFrontOfYou extends React.Component {
 export class ButcherShop extends React.Component {
   render () {
     return (
-      <div class="butcher-shop">
+      <div className="butcher-shop">
   <p>Hello! We have the following products for sale today:</p>
   <ul>
     {BUTCHER_PRODUCTS.map((item) => '<li>'+item+'</li>')}
