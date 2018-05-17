@@ -40,7 +40,7 @@ export class ButcherShop extends React.Component {
       <div className="butcher-shop">
   <p>Hello! We have the following products for sale today:</p>
   <ul>
-    {BUTCHER_PRODUCTS.map((item) => <li>+item+</li>)}
+    {BUTCHER_PRODUCTS.map((item) => <li>item</li>)}
   </ul>
 </div>
     )
