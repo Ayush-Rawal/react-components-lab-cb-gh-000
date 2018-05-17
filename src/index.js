@@ -27,7 +27,7 @@ export class InFrontOfYou extends React.Component {
   render() {
     return (
       <div>
-        <p>You shouldn&quot;t look too far.</p>
+        <p>You shouldn&#x27;t look too far.</p>
         <p>Sometimes, the solution is right in front of you.</p>
       </div>
     )
